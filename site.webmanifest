@@ -1,0 +1,28 @@
+{
+  "name": "Julianne Leblanc-Peltier's App",
+  "short_name": "Julianne Leblanc-Peltier's App",
+  "description": "Github page for Julianne Leblanc-Peltier's App",
+  "scope": "/ICD2O-Assignment-06-Julianne-Leblanc-Peltier/",
+  "start_url": "/ICD2O-Assignment-06-Julianne-Leblanc-Peltier/",
+  "permissions": [
+    "unlimitedStorage",
+    "fullscreen"
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,4 +1,37 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Julianne Leblanc-Peltier
+* Created on: April 2024
 * This file contains the CSS for index.html
 */
+
+body {
+  background-color: rgb(255, 183, 227);
+}
+
+.innerbody {
+  background-color: rgb(250 250 250);
+  width: 500px;
+  padding: 10px;
+  border: 5px solid rgb(2, 150, 208);
+  margin: 20px auto;
+}
+
+.content {
+  padding: 1%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  width: 500px;
+  margin-top: 20px;
+}
